@@ -9,16 +9,14 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.4.3",
-    "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/plugin-i18n": "4.4.3",
-    "pg": "8.6.0"
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/provider-upload-aws-s3": "^4.4.3",
+    "@strapi/strapi": "4.4.3",
+    "pg": "^8.6.0"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "daf66046-957d-4041-b705-5b505b543a9f"
   },
@@ -26,5 +24,15 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjk0795/strapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hjk0795/strapi/issues"
+  },
+  "homepage": "https://github.com/hjk0795/strapi#readme"
 }
