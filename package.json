@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/provider-upload-aws-s3": "^4.4.3",
     "@strapi/strapi": "4.4.3",
-    "pg": "^8.6.0"
+    "pg": "^8.8.0"
   },
   "author": "A Strapi developer",
   "strapi": {
@@ -26,7 +26,6 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hjk0795/strapi.git"
